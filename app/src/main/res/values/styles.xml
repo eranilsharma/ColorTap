@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- custom normal activity theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <!-- custom dialog activity theme -->
+    <style name="AppTheme.Dialog" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <!-- removing the dialog's action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ScoreBar" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlNormal">#FF3700B3</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlActivated">#FF6200EE</item>
+    </style>
+
+</resources>
